@@ -1,0 +1,44 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>UMLSpecialState</id><coordinates><x>337</x><y>0</y><w>20</w><h>20</h></coordinates><panel_attributes>type=initial</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>287</x><y>70</y><w>120</w><h>40</h></coordinates><panel_attributes>Εμφάνιση ερώτησης
+διάθεσης χρήστη</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>337</x><y>10</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;60;10;10</additional_attributes></element><element><id>UMLState</id><coordinates><x>287</x><y>140</y><w>130</w><h>40</h></coordinates><panel_attributes>Επιλογή διάθεσης
+χρήστη</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>337</x><y>100</y><w>30</w><h>60</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;40;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>337</x><y>170</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;50;10;10</additional_attributes></element><element><id>UMLState</id><coordinates><x>287</x><y>220</y><w>130</w><h>40</h></coordinates><panel_attributes>Εμφάνιση ερώτησης
+δραστηριότητας χρήστη</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLSpecialState</id><coordinates><x>327</x><y>700</y><w>40</w><h>40</h></coordinates><panel_attributes>type=decision
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>337</x><y>250</y><w>30</w><h>60</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;40;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>337</x><y>580</y><w>30</w><h>60</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;40;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>337</x><y>730</y><w>110</w><h>70</h></coordinates><panel_attributes>lt=&lt;-
+[μη κενή λίστα]</panel_attributes><additional_attributes>10;50;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>357</x><y>700</y><w>160</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+[κενή λίστα]</panel_attributes><additional_attributes>140;20;10;20</additional_attributes></element><element><id>UMLState</id><coordinates><x>287</x><y>880</y><w>150</w><h>70</h></coordinates><panel_attributes>Αξιολόγηση κομματιού
+symbol=substate</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLSpecialState</id><coordinates><x>337</x><y>980</y><w>20</w><h>20</h></coordinates><panel_attributes>type=final</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>337</x><y>940</y><w>30</w><h>60</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;40;10;10</additional_attributes></element><element><id>UMLSpecialState</id><coordinates><x>107</x><y>970</y><w>20</w><h>20</h></coordinates><panel_attributes>type=final</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>337</x><y>320</y><w>30</w><h>60</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;40;10;10</additional_attributes></element><element><id>UMLNote</id><coordinates><x>467</x><y>840</y><w>140</w><h>60</h></coordinates><panel_attributes>ΠΧ. Αξιολόγηση 
+Τραγουδιών
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>427</x><y>860</y><w>60</w><h>70</h></coordinates><panel_attributes>lt=.
+</panel_attributes><additional_attributes>10;50;40;10</additional_attributes></element><element><id>UMLState</id><coordinates><x>287</x><y>290</y><w>130</w><h>40</h></coordinates><panel_attributes>Επιλογή δρατηριότητας
+χρήστη</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>277</x><y>360</y><w>150</w><h>60</h></coordinates><panel_attributes>
+Εμφάνιση ερώτησης
+επιθυμητού
+είδους μουσικής
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>337</x><y>410</y><w>30</w><h>60</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;40;10;10</additional_attributes></element><element><id>UMLState</id><coordinates><x>277</x><y>450</y><w>140</w><h>40</h></coordinates><panel_attributes>
+Επιλογή επιθυμητού
+είδους μουσικής
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>337</x><y>480</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;50;10;10</additional_attributes></element><element><id>UMLState</id><coordinates><x>277</x><y>530</y><w>150</w><h>60</h></coordinates><panel_attributes>
+Εμφάνιση ερώτησης
+επιθυμητής
+έντασης κομματιού
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>277</x><y>620</y><w>150</w><h>40</h></coordinates><panel_attributes>
+Επιλογή επιθυμητής
+έντασης
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>277</x><y>780</y><w>150</w><h>60</h></coordinates><panel_attributes>Εμφάνιση λίστας 
+κομματιών</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>337</x><y>650</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;50;10;10</additional_attributes></element><element><id>UMLSpecialState</id><coordinates><x>497</x><y>700</y><w>40</w><h>40</h></coordinates><panel_attributes>type=decision
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>527</x><y>700</y><w>180</w><h>60</h></coordinates><panel_attributes>lt=&lt;-
+[κανένα τραγούδι 
+δεν ταιριάζει στις 
+επιλογές του χρήστη]</panel_attributes><additional_attributes>160;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>507</x><y>580</y><w>130</w><h>140</h></coordinates><panel_attributes>lt=&lt;-
+[όλα τα κομμάτια 
+που ταιριάζουν 
+έχουν ακουστεί τις 
+τελευταίες 5 ώρες]</panel_attributes><additional_attributes>10;10;10;120</additional_attributes></element><element><id>UMLState</id><coordinates><x>687</x><y>690</y><w>150</w><h>60</h></coordinates><panel_attributes>Εμφάνιση μηνύματος
+για μη εύρεση τραγουδιών</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>447</x><y>530</y><w>160</w><h>60</h></coordinates><panel_attributes>Εμφάνιση μηνύματος
+για μη διαθέσιμα τραγούδια</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>197</x><y>800</y><w>100</w><h>30</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;10;80;10</additional_attributes></element><element><id>UMLState</id><coordinates><x>57</x><y>790</y><w>150</w><h>40</h></coordinates><panel_attributes>
+Επιλογή κομματιού
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLSpecialState</id><coordinates><x>97</x><y>890</y><w>40</w><h>40</h></coordinates><panel_attributes>type=decision
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>107</x><y>820</y><w>30</w><h>90</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;70;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>127</x><y>890</y><w>180</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
+[θέλει να 
+κάνει αξιολόγηση]</panel_attributes><additional_attributes>160;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>107</x><y>920</y><w>120</w><h>70</h></coordinates><panel_attributes>lt=&lt;-
+[δε θέλει να 
+κάνει αξιολόγηση]</panel_attributes><additional_attributes>10;50;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>340</x><y>20</y><w>430</w><h>690</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;10;410;10;410;670</additional_attributes></element><element><id>Relation</id><coordinates><x>340</x><y>40</y><w>210</w><h>510</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;10;190;10;190;490</additional_attributes></element></diagram>

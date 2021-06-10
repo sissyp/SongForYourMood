@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".view.admin.AdminActivity"
+        android:background="@drawable/blueblack">
+
+
+        <Button
+            android:id="@+id/add_song_btn"
+            android:layout_width="188dp"
+            android:layout_height="66dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="102dp"
+            android:layout_marginRight="102dp"
+            android:layout_marginBottom="341dp"
+            android:background="@drawable/rounded_black_button"
+            android:fontFamily="@font/prompt_block"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="Add new song "
+            android:textColor="@android:color/white"
+            tools:layout_conversion_absoluteHeight="48dp"
+            tools:layout_conversion_absoluteWidth="210dp"
+            tools:layout_editor_absoluteX="112dp"
+            tools:layout_editor_absoluteY="184dp" />
+
+        <Button
+            android:id="@+id/remove_song_btn"
+            android:layout_width="188dp"
+            android:layout_height="66dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="103dp"
+            android:layout_marginRight="103dp"
+            android:layout_marginBottom="167dp"
+            android:background="@drawable/rounded_black_button"
+            android:fontFamily="@font/prompt_block"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="Remove song"
+            android:textColor="@android:color/white"
+            tools:layout_conversion_absoluteHeight="48dp"
+            tools:layout_conversion_absoluteWidth="210dp"
+            tools:layout_editor_absoluteX="112dp"
+            tools:layout_editor_absoluteY="323dp" />
+
+
+    </RelativeLayout>
+
+</layout>

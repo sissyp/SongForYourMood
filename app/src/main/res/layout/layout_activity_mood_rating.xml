@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".view.songRating.MoodRatingActivity"
+        android:background="@drawable/blueblack">
+
+        <Button
+            android:id="@+id/stressed_btn"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="145dp"
+            android:layout_marginRight="145dp"
+            android:layout_marginBottom="193dp"
+            android:background="@drawable/rounded_light_blue_button"
+            android:fontFamily="@font/prompt_block"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="Stressed"
+            tools:layout_conversion_absoluteHeight="48dp"
+            tools:layout_conversion_absoluteWidth="210dp"
+            tools:layout_editor_absoluteX="112dp"
+            tools:layout_editor_absoluteY="184dp" />
+
+        <Button
+            android:id="@+id/angry_btn"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="144dp"
+            android:layout_marginRight="144dp"
+            android:layout_marginBottom="270dp"
+            android:background="@drawable/rounded_green_button"
+            android:fontFamily="@font/prompt_block"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="Angry"
+            tools:layout_conversion_absoluteHeight="48dp"
+            tools:layout_conversion_absoluteWidth="210dp"
+            tools:layout_editor_absoluteX="112dp"
+            tools:layout_editor_absoluteY="184dp" />
+
+        <Button
+            android:id="@+id/sad_btn"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="144dp"
+            android:layout_marginRight="144dp"
+            android:layout_marginBottom="347dp"
+            android:background="@drawable/rounded_blue_pastel_button"
+            android:fontFamily="@font/prompt_block"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="Sad"
+            tools:layout_conversion_absoluteHeight="48dp"
+            tools:layout_conversion_absoluteWidth="210dp"
+            tools:layout_editor_absoluteX="112dp"
+            tools:layout_editor_absoluteY="184dp" />
+
+        <Button
+            android:id="@+id/calm_btn"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="148dp"
+            android:layout_marginRight="148dp"
+            android:layout_marginBottom="42dp"
+            android:background="@drawable/rounded_pink_button"
+            android:fontFamily="@font/prompt_block"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="Calm"
+            tools:layout_conversion_absoluteHeight="48dp"
+            tools:layout_conversion_absoluteWidth="210dp"
+            tools:layout_editor_absoluteX="112dp"
+            tools:layout_editor_absoluteY="184dp" />
+
+        <Button
+            android:id="@+id/nostalgic_btn"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="146dp"
+            android:layout_marginRight="146dp"
+            android:layout_marginBottom="116dp"
+            android:background="@drawable/rounded_yellow_button"
+            android:fontFamily="@font/prompt_block"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="Nostalgic"
+            tools:layout_conversion_absoluteHeight="48dp"
+            tools:layout_conversion_absoluteWidth="210dp"
+            tools:layout_editor_absoluteX="112dp"
+            tools:layout_editor_absoluteY="184dp" />
+
+        <Button
+            android:id="@+id/happy_btn"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="145dp"
+            android:layout_marginRight="145dp"
+            android:layout_marginBottom="419dp"
+            android:background="@drawable/rounded_purple_button"
+            android:fontFamily="@font/prompt_block"
+            android:text="Happy"
+            tools:layout_conversion_absoluteHeight="48dp"
+            tools:layout_conversion_absoluteWidth="411dp"
+            tools:layout_editor_absoluteX="307dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:background="@drawable/blueblack3d"/>
+
+
+    </RelativeLayout>
+
+</layout>

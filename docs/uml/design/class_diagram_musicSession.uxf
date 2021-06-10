@@ -1,0 +1,355 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><help_text>&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;UMLClass&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;720&lt;/x&gt;&lt;y&gt;420&lt;/y&gt;&lt;w&gt;490&lt;/w&gt;&lt;h&gt;110&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;Statistics
+--
+- song : Song
+--
++ Statistics(song : Song)
++ initialize()
++ calculateRatings(SongRatingDAO songRatingDAO) 
++ sortByValue(HashMap&amp;lt;String, Integer&amp;gt; hm)
+
+&lt;/panel_attributes&gt;&lt;additional_attributes&gt;&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;UMLClass&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;430&lt;/x&gt;&lt;y&gt;300&lt;/y&gt;&lt;w&gt;340&lt;/w&gt;&lt;h&gt;90&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;ActivityRaitingPresenter
+--
+- view : ActivityRaitingView
+--
++ ActivityRaitingPresenter(view : MoodRatingView)
++ OnClickActivityRating(activity:String) : void
++ detach() : void&lt;/panel_attributes&gt;&lt;additional_attributes&gt;&lt;/additional_attributes&gt;&lt;/element&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;580&lt;/x&gt;&lt;y&gt;377&lt;/y&gt;&lt;w&gt;50&lt;/w&gt;&lt;h&gt;70&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=&amp;lt;-
+m1=1
+view&lt;/panel_attributes&gt;&lt;additional_attributes&gt;14;43;10;10&lt;/additional_attributes&gt;&lt;/element&gt;&lt;element&gt;&lt;id&gt;UMLClass&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;474&lt;/x&gt;&lt;y&gt;420&lt;/y&gt;&lt;w&gt;250&lt;/w&gt;&lt;h&gt;70&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;
+ActivityRaitingView
+--
+--
++ handleActivityRating(activity:String) : void
+
+&lt;/panel_attributes&gt;&lt;additional_attributes&gt;&lt;/additional_attributes&gt;&lt;/element&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;570&lt;/x&gt;&lt;y&gt;477&lt;/y&gt;&lt;w&gt;30&lt;/w&gt;&lt;h&gt;100&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=&amp;lt;&amp;lt;.&lt;/panel_attributes&gt;&lt;additional_attributes&gt;14;13;14;80&lt;/additional_attributes&gt;&lt;/element&gt;&lt;element&gt;&lt;id&gt;UMLClass&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;474&lt;/x&gt;&lt;y&gt;560&lt;/y&gt;&lt;w&gt;260&lt;/w&gt;&lt;h&gt;150&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;ActivityRaitingActivity
+--
+- binding : LayoutActivityActivityRaitingBinding
+- presenter : ActivityRaitingPresenter
+- element1 : String
+- element2 : String
+- song : String
+- counter : int
+- mood : String
+--
++ handleActivityRating(activity:String) : void
+&lt;/panel_attributes&gt;&lt;additional_attributes&gt;&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;UMLClass&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;430&lt;/x&gt;&lt;y&gt;300&lt;/y&gt;&lt;w&gt;340&lt;/w&gt;&lt;h&gt;90&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;ActivityRaitingPresenter
+--
+- view : ActivityRaitingView
+--
++ ActivityRaitingPresenter(view : MoodRatingView)
++ OnClickActivityRating(activity:String) : void
++ detach() : void&lt;/panel_attributes&gt;&lt;additional_attributes&gt;&lt;/additional_attributes&gt;&lt;/element&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;580&lt;/x&gt;&lt;y&gt;377&lt;/y&gt;&lt;w&gt;50&lt;/w&gt;&lt;h&gt;70&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=&amp;lt;-
+m1=1
+view&lt;/panel_attributes&gt;&lt;additional_attributes&gt;14;43;10;10&lt;/additional_attributes&gt;&lt;/element&gt;&lt;element&gt;&lt;id&gt;UMLClass&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;474&lt;/x&gt;&lt;y&gt;420&lt;/y&gt;&lt;w&gt;250&lt;/w&gt;&lt;h&gt;70&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;
+ActivityRaitingView
+--
+--
++ handleActivityRating(activity:String) : void
+
+&lt;/panel_attributes&gt;&lt;additional_attributes&gt;&lt;/additional_attributes&gt;&lt;/element&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;570&lt;/x&gt;&lt;y&gt;477&lt;/y&gt;&lt;w&gt;30&lt;/w&gt;&lt;h&gt;100&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=&amp;lt;&amp;lt;.&lt;/panel_attributes&gt;&lt;additional_attributes&gt;14;13;14;80&lt;/additional_attributes&gt;&lt;/element&gt;&lt;element&gt;&lt;id&gt;UMLClass&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;474&lt;/x&gt;&lt;y&gt;560&lt;/y&gt;&lt;w&gt;260&lt;/w&gt;&lt;h&gt;150&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;ActivityRaitingActivity
+--
+- binding : LayoutActivityActivityRaitingBinding
+- presenter : ActivityRaitingPresenter
+- element1 : String
+- element2 : String
+- song : String
+- counter : int
+- mood : String
+--
++ handleActivityRating(activity:String) : void
+&lt;/panel_attributes&gt;&lt;additional_attributes&gt;&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;UMLClass&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;560&lt;/x&gt;&lt;y&gt;10&lt;/y&gt;&lt;w&gt;160&lt;/w&gt;&lt;h&gt;120&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;SongRating
+--
+- mood : Mood
+- activity : Activity
+- intensity : Intensity
+- date : LocalDateTime
+- song : Song
+--
++ SongRating(song : Song)&lt;/panel_attributes&gt;&lt;additional_attributes&gt;&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;Space for diagram notes&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;UMLClass&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;20&lt;/x&gt;&lt;y&gt;13&lt;/y&gt;&lt;w&gt;470&lt;/w&gt;&lt;h&gt;210&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;Song
+--
+- id: int
+- title: String
+- genre : Genre
+- productionYear : int
+- band : Band
+- duration : String
+- link : String
+--
++ Song(int id)
++ Song(String title,int id)
++ Song(String title, String link, int id)
++ Song(String title, Genre genre, int productionYear, Band band, String link,int id)&lt;/panel_attributes&gt;&lt;additional_attributes&gt;&lt;/additional_attributes&gt;&lt;/element&gt;&lt;element&gt;&lt;id&gt;UMLClass&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;560&lt;/x&gt;&lt;y&gt;3&lt;/y&gt;&lt;w&gt;160&lt;/w&gt;&lt;h&gt;120&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;SongRating
+--
+- mood : Mood
+- activity : Activity
+- intensity : Intensity
+- date : LocalDateTime
+- song : Song
+--
++ SongRating(song : Song)&lt;/panel_attributes&gt;&lt;additional_attributes&gt;&lt;/additional_attributes&gt;&lt;/element&gt;&lt;element&gt;&lt;id&gt;UMLClass&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;0&lt;/x&gt;&lt;y&gt;233&lt;/y&gt;&lt;w&gt;400&lt;/w&gt;&lt;h&gt;130&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;MoodRatingPresenter
+--
+- view : MoodRatingView
+- songDAO : SongDAO
+--
++ MoodRaitingPresenter(view : MoodRatingView, songDAO : SongDAO)
++ OnClickMoodRating(mood:String) : void
++ detach() : void
++ findSongForElement(element:String) : String&lt;/panel_attributes&gt;&lt;additional_attributes&gt;&lt;/additional_attributes&gt;&lt;/element&gt;&lt;element&gt;&lt;id&gt;UMLClass&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;84&lt;/x&gt;&lt;y&gt;433&lt;/y&gt;&lt;w&gt;220&lt;/w&gt;&lt;h&gt;80&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;
+MoodRatingView
+--
+--
++ handleMoodRating(mood:String) : void
++ chooseSong(band:String) : void
+&lt;/panel_attributes&gt;&lt;additional_attributes&gt;&lt;/additional_attributes&gt;&lt;/element&gt;&lt;element&gt;&lt;id&gt;UMLClass&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;74&lt;/x&gt;&lt;y&gt;553&lt;/y&gt;&lt;w&gt;230&lt;/w&gt;&lt;h&gt;150&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;MoodRatingActivity
+--
+- binding : LayoutActivityMoodRaitingBinding
+- presenter : MoodRaitingPresenter
+- element1 : String
+- element2 : String
+- song : String
+- counter : int
+--
++ handleMoodRating(mood:String) : void
++ chooseSong(band:String) : void
+&lt;/panel_attributes&gt;&lt;additional_attributes&gt;&lt;/additional_attributes&gt;&lt;/element&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;190&lt;/x&gt;&lt;y&gt;360&lt;/y&gt;&lt;w&gt;50&lt;/w&gt;&lt;h&gt;90&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=&amp;lt;-
+m1=1
+view&lt;/panel_attributes&gt;&lt;additional_attributes&gt;10;70;10;10&lt;/additional_attributes&gt;&lt;/element&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;170&lt;/x&gt;&lt;y&gt;500&lt;/y&gt;&lt;w&gt;40&lt;/w&gt;&lt;h&gt;70&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=&amp;lt;&amp;lt;.&lt;/panel_attributes&gt;&lt;additional_attributes&gt;20;10;14;50&lt;/additional_attributes&gt;&lt;/element&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;580&lt;/x&gt;&lt;y&gt;380&lt;/y&gt;&lt;w&gt;50&lt;/w&gt;&lt;h&gt;70&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=&amp;lt;-
+m1=1
+view&lt;/panel_attributes&gt;&lt;additional_attributes&gt;14;43;10;10&lt;/additional_attributes&gt;&lt;/element&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;570&lt;/x&gt;&lt;y&gt;480&lt;/y&gt;&lt;w&gt;30&lt;/w&gt;&lt;h&gt;100&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=&amp;lt;&amp;lt;.&lt;/panel_attributes&gt;&lt;additional_attributes&gt;14;13;14;80&lt;/additional_attributes&gt;&lt;/element&gt;&lt;element&gt;&lt;id&gt;UMLClass&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;474&lt;/x&gt;&lt;y&gt;563&lt;/y&gt;&lt;w&gt;260&lt;/w&gt;&lt;h&gt;150&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;ActivityRaitingActivity
+--
+- binding : LayoutActivityActivityRaitingBinding
+- presenter : ActivityRaitingPresenter
+- element1 : String
+- element2 : String
+- song : String
+- counter : int
+- mood : String
+--
++ handleActivityRating(activity:String) : void
+&lt;/panel_attributes&gt;&lt;additional_attributes&gt;&lt;/additional_attributes&gt;&lt;/element&gt;&lt;element&gt;&lt;id&gt;UMLClass&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;474&lt;/x&gt;&lt;y&gt;423&lt;/y&gt;&lt;w&gt;250&lt;/w&gt;&lt;h&gt;70&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;
+ActivityRaitingView
+--
+--
++ handleActivityRating(activity:String) : void
+
+&lt;/panel_attributes&gt;&lt;additional_attributes&gt;&lt;/additional_attributes&gt;&lt;/element&gt;&lt;element&gt;&lt;id&gt;UMLClass&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;430&lt;/x&gt;&lt;y&gt;303&lt;/y&gt;&lt;w&gt;340&lt;/w&gt;&lt;h&gt;90&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;ActivityRaitingPresenter
+--
+- view : ActivityRaitingView
+--
++ ActivityRaitingPresenter(view : MoodRatingView)
++ OnClickActivityRating(activity:String) : void
++ detach() : void&lt;/panel_attributes&gt;&lt;additional_attributes&gt;&lt;/additional_attributes&gt;&lt;/element&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;950&lt;/x&gt;&lt;y&gt;360&lt;/y&gt;&lt;w&gt;50&lt;/w&gt;&lt;h&gt;80&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=&amp;lt;-
+m1=1
+view&lt;/panel_attributes&gt;&lt;additional_attributes&gt;14;60;10;10&lt;/additional_attributes&gt;&lt;/element&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;940&lt;/x&gt;&lt;y&gt;470&lt;/y&gt;&lt;w&gt;30&lt;/w&gt;&lt;h&gt;90&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=&amp;lt;&amp;lt;.&lt;/panel_attributes&gt;&lt;additional_attributes&gt;14;10;14;63&lt;/additional_attributes&gt;&lt;/element&gt;&lt;element&gt;&lt;id&gt;UMLClass&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;834&lt;/x&gt;&lt;y&gt;533&lt;/y&gt;&lt;w&gt;260&lt;/w&gt;&lt;h&gt;170&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;IntensityRaitingActivity
+--
+- binding : LayoutActivityIntensityRaitingBinding
+- presenter : IntensityRaitingPresenter
+- element1 : String
+- element2 : String
+- song : String
+- counter : int
+- mood : String
+- activity :String
+--
++ handleIntensityRating(activity:String) : void
+&lt;/panel_attributes&gt;&lt;additional_attributes&gt;&lt;/additional_attributes&gt;&lt;/element&gt;&lt;element&gt;&lt;id&gt;UMLClass&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;844&lt;/x&gt;&lt;y&gt;423&lt;/y&gt;&lt;w&gt;240&lt;/w&gt;&lt;h&gt;60&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;
+IntensityRaitingView
+--
+--
+handleIntensityRating(activity:String) : void
+&lt;/panel_attributes&gt;&lt;additional_attributes&gt;&lt;/additional_attributes&gt;&lt;/element&gt;&lt;element&gt;&lt;id&gt;UMLClass&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;800&lt;/x&gt;&lt;y&gt;233&lt;/y&gt;&lt;w&gt;580&lt;/w&gt;&lt;h&gt;140&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;IntensityRaitingPresenter
+--
+- view : IntensityRatingView
+- songDAO : SongDAO
+- songRaitingDAO : SongRaitingDAO
+--
++IntensityRaitingPresenter(view : RegisterView, songDAO : SongDAO, songRaitingDAO : SongRaitingDAO)
++ OnClickIntensityRating(intensity:String, sonf:String, mood:String, activity:String) : void
++ addRating(intensity:String, sonf:String, mood:String, activity:String) : void
++detach() :void&lt;/panel_attributes&gt;&lt;additional_attributes&gt;&lt;/additional_attributes&gt;&lt;/element&gt;&lt;element&gt;&lt;id&gt;UMLClass&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;820&lt;/x&gt;&lt;y&gt;13&lt;/y&gt;&lt;w&gt;250&lt;/w&gt;&lt;h&gt;100&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;SongRaitingDAO
+--
+--
++ SongRatingDAO()
++ fing(songId:String) : ArrayList&amp;lt;SongRaiting&amp;gt;
++ save(raiting:SongRaiting) : void
++ delete(raiting:SongRaiting) : void&lt;/panel_attributes&gt;&lt;additional_attributes&gt;&lt;/additional_attributes&gt;&lt;/element&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;478&lt;/x&gt;&lt;y&gt;53&lt;/y&gt;&lt;w&gt;100&lt;/w&gt;&lt;h&gt;40&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;-
+&lt;/panel_attributes&gt;&lt;additional_attributes&gt;80;20;10;20&lt;/additional_attributes&gt;&lt;/element&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;710&lt;/x&gt;&lt;y&gt;53&lt;/y&gt;&lt;w&gt;130&lt;/w&gt;&lt;h&gt;40&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=&amp;lt;-
+uses&lt;/panel_attributes&gt;&lt;additional_attributes&gt;10;20;110;20&lt;/additional_attributes&gt;&lt;/element&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;940&lt;/x&gt;&lt;y&gt;103&lt;/y&gt;&lt;w&gt;50&lt;/w&gt;&lt;h&gt;150&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=&amp;lt;-
+uses&lt;/panel_attributes&gt;&lt;additional_attributes&gt;10;10;10;130&lt;/additional_attributes&gt;&lt;/element&gt;&lt;element&gt;&lt;id&gt;UMLClass&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;550&lt;/x&gt;&lt;y&gt;133&lt;/y&gt;&lt;w&gt;190&lt;/w&gt;&lt;h&gt;140&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;SongDAO
+--
+- idCounter : int
+--
++ SongDAO()
++ fing(songId:String) : ArrayList&amp;lt;Song&amp;gt;
++ save(song:Song) : void
++ delete(song:Song) : void
++ findSongTitle(title:String) : Song
++ findAll() : List&amp;lt;Song&amp;gt; &lt;/panel_attributes&gt;&lt;additional_attributes&gt;&lt;/additional_attributes&gt;&lt;/element&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;390&lt;/x&gt;&lt;y&gt;223&lt;/y&gt;&lt;w&gt;180&lt;/w&gt;&lt;h&gt;40&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=&amp;lt;-
+uses&lt;/panel_attributes&gt;&lt;additional_attributes&gt;160;20;10;20&lt;/additional_attributes&gt;&lt;/element&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;480&lt;/x&gt;&lt;y&gt;133&lt;/y&gt;&lt;w&gt;90&lt;/w&gt;&lt;h&gt;40&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=&amp;lt;-
+uses&lt;/panel_attributes&gt;&lt;additional_attributes&gt;70;20;10;20&lt;/additional_attributes&gt;&lt;/element&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;730&lt;/x&gt;&lt;y&gt;223&lt;/y&gt;&lt;w&gt;90&lt;/w&gt;&lt;h&gt;40&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=&amp;lt;-
+uses&lt;/panel_attributes&gt;&lt;additional_attributes&gt;10;20;70;20&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;</help_text><element><id>UMLClass</id><coordinates><x>20</x><y>10</y><w>470</w><h>210</h></coordinates><panel_attributes>Song
+--
+- id: int
+- title: String
+- genre : Genre
+- productionYear : int
+- band : Band
+- duration : String
+- link : String
+--
++ Song(int id)
++ Song(String title,int id)
++ Song(String title, String link, int id)
++ Song(String title, Genre genre, int productionYear, Band band, String link,int id)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>560</x><y>0</y><w>160</w><h>120</h></coordinates><panel_attributes>SongRating
+--
+- mood : Mood
+- activity : Activity
+- intensity : Intensity
+- date : LocalDateTime
+- song : Song
+--
++ SongRating(song : Song)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>230</y><w>400</w><h>90</h></coordinates><panel_attributes>MoodQuestionPresenter
+--
+- view : MoodQuestionView
+--
++ MoodQuestionPresenter(view : MoodQuestionView)
++ OnClickGenreQuestion(mood:String) : void
++ detach() : void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>84</x><y>430</y><w>240</w><h>70</h></coordinates><panel_attributes>&lt;&lt;Interface&gt;&gt;
+MoodQuestionView
+--
+--
++ handleGenreQuestion(mood:String) : void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>74</x><y>550</y><w>240</w><h>80</h></coordinates><panel_attributes>MoodQuestionActivity
+--
+- binding : LayoutActivityMoodRaitingBinding
+- presenter : MoodQuestionPresenter
+--
++ handleGenreQuestion(mood:String) : void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>190</x><y>317</y><w>50</w><h>140</h></coordinates><panel_attributes>lt=&lt;-
+m1=1
+view</panel_attributes><additional_attributes>14;113;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>180</x><y>487</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>14;13;14;63</additional_attributes></element><element><id>Relation</id><coordinates><x>580</x><y>377</y><w>50</w><h>110</h></coordinates><panel_attributes>lt=&lt;-
+m1=1
+view</panel_attributes><additional_attributes>14;83;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>570</x><y>517</y><w>30</w><h>60</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>14;13;14;43</additional_attributes></element><element><id>UMLClass</id><coordinates><x>474</x><y>560</y><w>260</w><h>80</h></coordinates><panel_attributes>ActivityQuestionActivity
+--
+- binding : LayoutActivityActivityRaitingBinding
+- presenter : ActivityQuestionPresenter
+--
++ handleMusicSeesion(activity:String) : void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>474</x><y>460</y><w>280</w><h>70</h></coordinates><panel_attributes>&lt;&lt;Interface&gt;&gt;
+ActivityQuestionView
+--
+--
++ handleMusicSession(activity:String) : void
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>430</x><y>300</y><w>340</w><h>90</h></coordinates><panel_attributes>ActivityQuestionPresenter
+--
+--
+- view : ActivityQuestionView
+--
++ ActivityQuestionPresenter(view : ActivityQuestionView)
++ OnClickIntensityQuestion(activity:String) : void
++ detach() : void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>950</x><y>317</y><w>50</w><h>120</h></coordinates><panel_attributes>lt=&lt;-
+m1=1
+view</panel_attributes><additional_attributes>14;100;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>940</x><y>467</y><w>30</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>14;10;14;63</additional_attributes></element><element><id>UMLClass</id><coordinates><x>834</x><y>530</y><w>260</w><h>90</h></coordinates><panel_attributes>IntensityQuestionActivity
+--
+- binding : LayoutActivityIntensityRaitingBinding
+- presenter : IntensityQuestionPresenter
+--
++ handleActivityQuestion(intensity:String) : void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>844</x><y>420</y><w>270</w><h>60</h></coordinates><panel_attributes>&lt;&lt;Interface&gt;&gt;
+IntensityQuestionView
+--
+--
+handleActivityQuestion(intensity:String) : void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>800</x><y>230</y><w>280</w><h>100</h></coordinates><panel_attributes>IntensityQuestionPresenter
+--
+- view : IntensityRatingView
+--
++IntensityQuestionPresenter(view : RegisterView)
++ OnClickIntensityQuestion(intensity:String) : void
++detach() :void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>820</x><y>10</y><w>250</w><h>100</h></coordinates><panel_attributes>SongRaitingDAO
+--
+--
++ SongRatingDAO()
++ fing(songId:String) : ArrayList&lt;SongRaiting&gt;
++ save(raiting:SongRaiting) : void
++ delete(raiting:SongRaiting) : void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>478</x><y>50</y><w>100</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+</panel_attributes><additional_attributes>80;20;10;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>550</x><y>130</y><w>190</w><h>140</h></coordinates><panel_attributes>SongDAO
+--
+- idCounter : int
+--
++ SongDAO()
++ fing(songId:String) : ArrayList&lt;Song&gt;
++ save(song:Song) : void
++ delete(song:Song) : void
++ findSongTitle(title:String) : Song
++ findAll() : List&lt;Song&gt; </panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>480</x><y>130</y><w>90</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+uses</panel_attributes><additional_attributes>70;20;10;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1128</x><y>270</y><w>340</w><h>90</h></coordinates><panel_attributes>GenreQuestionPresenter
+--
+- view : GenreQuestionView
+--
++ GenreQuestionPresenter(view : GenreQuestionView)
++ OnClickIntensityQuestion(genre:String) : void
++ detach() : void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1278</x><y>347</y><w>50</w><h>110</h></coordinates><panel_attributes>lt=&lt;-
+m1=1
+view</panel_attributes><additional_attributes>14;83;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1172</x><y>430</y><w>250</w><h>70</h></coordinates><panel_attributes>&lt;&lt;Interface&gt;&gt;
+GenreQuestionView
+--
+--
++ handleIntensityQuestion(genre:String) : void
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1268</x><y>487</y><w>30</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>14;13;14;70</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1172</x><y>560</y><w>260</w><h>80</h></coordinates><panel_attributes>GenreQuestionActivity
+--
+- binding : LayoutActivityActivityRaitingBinding
+- presenter : GenreQuestionPresenter
+--
++ handleIntensityQuestion(genre:String) : void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1560</x><y>245</y><w>340</w><h>100</h></coordinates><panel_attributes>MusicSessionPresenter
+--
+- view : MusicSessionView
+- songDAO : SongDAO
+--
++ MusecSessionPresenter(view : MusecSessionView, songDAO:SongDAO)
++ loadAllSongs(mood:String,genre:String, activity:String, intensity:String) : void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1710</x><y>332</y><w>50</w><h>110</h></coordinates><panel_attributes>lt=&lt;-
+m1=1
+view</panel_attributes><additional_attributes>14;83;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1604</x><y>415</y><w>250</w><h>80</h></coordinates><panel_attributes>&lt;&lt;Interface&gt;&gt;
+MusicSessionView
+--
+--
++ noSongsMatch() : void
++ onFetchSongs(songList:List&lt;Song&gt;) : void
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1700</x><y>482</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>14;13;14;50</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1604</x><y>535</y><w>260</w><h>160</h></coordinates><panel_attributes>MusicSessionActivity
+--
+- binding : LayoutActivityMusicSessionBinding
+- presenter : MusicSessionPresenter
+- genre : String
+- intensity : String
+- mood : String
+- activity :String
+--
++ noSongsMatch() : void
++ onFetchSongs(songList:List&lt;Song&gt;) : void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1604</x><y>735</y><w>260</w><h>110</h></coordinates><panel_attributes>MusicSessionListAdapter
+--
+- data : List&lt;Song&gt;
+- context : Context
+--
++ onCreateViewHolder(parent:ViewGroup, viewType : int ) : RecyclerView.ViewHolder
++ onBindViewHolder(holder:RecyclerView.ViewHolder ,position: int ) : void
++ getItemCount() : int</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1720</x><y>690</y><w>50</w><h>70</h></coordinates><panel_attributes>lt=&lt;-
+uses</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>1070</x><y>50</y><w>680</w><h>210</h></coordinates><panel_attributes>lt=&lt;-
+uses</panel_attributes><additional_attributes>10;20;660;20;660;190</additional_attributes></element><element><id>Relation</id><coordinates><x>1400</x><y>210</y><w>200</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
+uses</panel_attributes><additional_attributes>10;20;180;20;180;30</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1101</x><y>144</y><w>300</w><h>110</h></coordinates><panel_attributes>Statistics
+--
+- song : Song
+--
++ Statistics(song : Song)
++ initialize()
++ calculateRatings(SongRatingDAO songRatingDAO) 
++ sortByValue(HashMap&lt;String, Integer&gt; hm)
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>730</x><y>160</y><w>390</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+uses</panel_attributes><additional_attributes>10;20;370;20</additional_attributes></element><element><id>Relation</id><coordinates><x>710</x><y>40</y><w>130</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+uses</panel_attributes><additional_attributes>10;20;110;20</additional_attributes></element></diagram>

@@ -1,0 +1,78 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>340</x><y>10</y><w>210</w><h>110</h></coordinates><panel_attributes>User
+--
+firstName: String
+lastName: String
+email: String
+usernasme: String
+passwrod: String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>280</x><y>430</y><w>120</w><h>100</h></coordinates><panel_attributes>Song
+--
+title: String
+genre: Genre
+productionYear: int</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>30</x><y>560</y><w>130</w><h>140</h></coordinates><panel_attributes>&lt;&lt;enumeration&gt;&gt;
+Mood
+--
+happy
+sad
+angry
+nostalgic
+stressed
+calm</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>180</x><y>560</y><w>130</w><h>140</h></coordinates><panel_attributes>&lt;&lt;enumeration&gt;&gt;
+Activity
+--
+work
+studying
+working out
+partying
+hobby
+no activity</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>490</x><y>610</y><w>130</w><h>90</h></coordinates><panel_attributes>&lt;&lt;enumeration&gt;&gt;
+Intensity
+--
+high
+medium
+low</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>20</x><y>430</y><w>120</w><h>120</h></coordinates><panel_attributes>MusicSession
+--
+mood: Mood
+activity: Activity
+genre: Genre
+intensity: Intensity
+date: Date
+time: Time</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>160</x><y>190</y><w>120</w><h>90</h></coordinates><panel_attributes>SongRating
+--
+mood: Mood
+activity: Activity
+intensity: Intensity
+date: Date</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>340</x><y>560</y><w>130</w><h>140</h></coordinates><panel_attributes>&lt;&lt;enumeration&gt;&gt;
+Genre
+--
+jazz
+rock
+pop
+disco
+rap
+classical</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>210</x><y>70</y><w>150</w><h>140</h></coordinates><panel_attributes>lt=-
+m1=*
+m2=*
+</panel_attributes><additional_attributes>10;120;10;10;130;10</additional_attributes></element><element><id>Relation</id><coordinates><x>270</x><y>220</y><w>100</w><h>230</h></coordinates><panel_attributes>lt=-
+m1=*
+m2=1
+</panel_attributes><additional_attributes>10;20;70;20;70;210</additional_attributes></element><element><id>Relation</id><coordinates><x>130</x><y>450</y><w>170</w><h>50</h></coordinates><panel_attributes>lt=-
+m1=*
+m2=*
+</panel_attributes><additional_attributes>10;20;150;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>550</x><y>440</y><w>120</w><h>80</h></coordinates><panel_attributes>Band
+--
+name: String
+members: String
+genre: Genre
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>390</x><y>480</y><w>180</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m1=*
+m2=1</panel_attributes><additional_attributes>10;10;160;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>670</x><y>290</y><w>120</w><h>50</h></coordinates><panel_attributes>BandPreference
+--
+band: Band
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>530</x><y>290</y><w>120</w><h>50</h></coordinates><panel_attributes>GenrePreference
+--
+genre: Genre
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>590</x><y>190</y><w>140</w><h>30</h></coordinates><panel_attributes>Preference
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>600</x><y>210</y><w>70</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>50;10;10;80</additional_attributes></element><element><id>Relation</id><coordinates><x>660</x><y>210</y><w>80</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;60;80</additional_attributes></element><element><id>Relation</id><coordinates><x>540</x><y>70</y><w>140</w><h>140</h></coordinates><panel_attributes>lt=-
+m1=*
+m2=*
+</panel_attributes><additional_attributes>120;120;120;10;10;10</additional_attributes></element></diagram>
