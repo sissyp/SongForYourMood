@@ -2,7 +2,7 @@
 
 ## Διάγραμμα Περιπτώσεων Χρήσης 
 
-![Διάγραμμα περιπτώσεων χρήσης](docs/markdown/uml/requirements/use-case-diagram.png)
+![Διάγραμμα περιπτώσεων χρήσης](uml/requirements/use-case-diagram.png)
 
 
 ## Σύντομη Περιγραφή των Περιπτώσεων Χρήσης
