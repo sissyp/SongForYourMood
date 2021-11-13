@@ -24,6 +24,6 @@
 1. Το σύστημα εμφανίζει μήνυμα σφάλματος. 
 2. Η περίπτωση χρήσης επιστρέφει στο βήμα 1 της βασικής ροής.
 
-![Διάγραμμα Δραστηριότητας](docs/markdown/uml/requirements/activity-user-registration.png)
+![Διάγραμμα Δραστηριότητας](uml/requirements/activity-user-registration.png)
 
-![Διάγραμμα Ακολουθίας](docs/markdown/uml/requirements/sequence-user-registration.png)
+![Διάγραμμα Ακολουθίας](uml/requirements/sequence-user-registration.png)
