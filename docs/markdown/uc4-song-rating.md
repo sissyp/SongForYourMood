@@ -18,7 +18,7 @@
 
 _Σημείωση: Ο χρήστης αναγκαστικά απαντάει όλες τις ερωτήσεις γιατί η εφαρμογή δεν του επιτρέπει να απαντήσει σε επόμενη ερώτηση αν δεν επιλέξει μια από τις επιλογές της συγκεκριμένης ερώτησης._
 
-![Διάγραμμα Δραστηριότητας](docs/markdown/uml/requirements/activity-song-rating.png)
+![Διάγραμμα Δραστηριότητας](uml/requirements/activity-song-rating.png)
 
-![Διάγραμμα Ακολουθίας](docs/markdown/uml/requirements/sequence-song-rating.png)
+![Διάγραμμα Ακολουθίας](uml/requirements/sequence-song-rating.png)
 
